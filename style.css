@@ -1,0 +1,21 @@
+table {
+    font-family: sans-serif;
+    border-spacing: .25em;
+}
+
+tr {
+    background: #b70;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background: #ea0;
+}
+
+td {
+    padding: .35em .5em;
+}
+
+td:first-child {
+    font-weight: bold;
+}
