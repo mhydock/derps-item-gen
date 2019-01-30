@@ -43,7 +43,7 @@ var itemTypes = {
 };
 
 var weapons = {
-        knife: {
+    knife: {
         type: ['S', 'P'],
         range: ['T', 'M', 'TH'],
         damage: ['d2'],
@@ -266,4 +266,31 @@ function genRando() {
     itemType_td.innerHTML = it_name;
     element_td.innerHTML = el.length > 0 ? el.join(', ') : 'None';
     effect_td.innerHTML = el.length > 0 ? [verb, ef].join(' ') : 'None';
+
+    armorSpecs_tr = document.getElementById('armorSpecs');
+    weaponSpecs_tr = document.getElementById('weaponSpecs');
+
+    armorSpecs_tr.style.display = 'none';
+    weaponSpecs_tr.style.display = 'none';
+
+    if (it_name == 'weapon') {
+        var weaponType_td = document.getElementById('weaponType');
+        var weaponRange_td = document.getElementById('weaponRange');
+        var weaponDamage_td = document.getElementById('weaponDamage');
+        var weaponBonus_td = document.getElementById('weaponBonus');
+
+        weaponType_td.innerHTML = it.type;
+        weaponRange_td.innerHTML = it.range;
+        weaponDamage_td.innerHTML = it.damage;
+        weaponBonus_td.innerHTML = it.bonus;
+
+        weaponSpecs_tr.style.display = 'table-row';
+    } else if (it_name == 'armor') {
+        var armorWeight_td = document.getElementById('armorWeight');
+        var armorClass_td = document.getElementById('armorClass');
+
+        armorWeight_td.innerHTML = it.weight;
+        armorClass_td.innerHTML = it.armor;
+        armorSpecs_tr.style.display = 'table-row';
+    }
 }

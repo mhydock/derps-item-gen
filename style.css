@@ -1,6 +1,14 @@
 table {
     font-family: sans-serif;
     border-spacing: .25em;
+    max-width: 25em;
+}
+
+table td table {
+    width: 100%;
+    margin: -.25em;
+    margin-left: .25em;
+    margin-right: .0em;
 }
 
 tr {
@@ -18,4 +26,10 @@ td {
 
 td:first-child {
     font-weight: bold;
+    word-wrap: none;
+    white-space: nowrap;
+}
+
+td:last-child {
+    width: 100%;
 }
