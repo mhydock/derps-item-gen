@@ -1,0 +1,319 @@
+{
+    "effects": [
+        {
+            "name": "burn",
+            "description": "",
+            "elements": ["Fire"]
+        },
+        {
+            "name": "warm",
+            "description": "",
+            "elements": ["Fire"]
+        },
+        {
+            "name": "drown",
+            "description": "",
+            "elements": ["Water"]
+        },
+        {
+            "name": "hydrate",
+            "description": "",
+            "elements": ["Water"]
+        },
+        {
+            "name": "freeze",
+            "description": "",
+            "elements": ["Ice"]
+        },
+        {
+            "name": "chill",
+            "description": "",
+            "elements": ["Ice"]
+        },
+        {
+            "name": "suffocate",
+            "description": "",
+            "elements": ["Wind"]
+        },
+        {
+            "name": "levitate",
+            "description": "",
+            "elements": ["Wind"]
+        },
+        {
+            "name": "fly",
+            "description": "",
+            "elements": ["Wind"]
+        },
+        {
+            "name": "crush",
+            "description": "",
+            "elements": ["Earth"]
+        },
+        {
+            "name": "grow",
+            "description": "",
+            "elements": ["Earth"]
+        },
+        {
+            "name": "feed",
+            "description": "",
+            "elements": ["Earth"]
+        },
+        {
+            "name": "decompose",
+            "description": "",
+            "elements": ["Earth"]
+        },
+        {
+            "name": "poison",
+            "description": "",
+            "elements": ["Earth"]
+        },
+        {
+            "name": "bless",
+            "description": "",
+            "elements": ["Holy"]
+        },
+        {
+            "name": "protect",
+            "description": "",
+            "elements": ["Holy"]
+        },
+        {
+            "name": "heal",
+            "description": "",
+            "elements": ["Holy"]
+        },
+        {
+            "name": "dispel",
+            "description": "",
+            "elements": ["Holy"]
+        },
+        {
+            "name": "condemn",
+            "description": "",
+            "elements": ["Holy"]
+        },
+        {
+            "name": "blind",
+            "description": "",
+            "elements": ["Dark"]
+        },
+        {
+            "name": "void",
+            "description": "",
+            "elements": ["Dark"]
+        },
+        {
+            "name": "banish",
+            "description": "",
+            "elements": ["Dark"]
+        },
+        {
+            "name": "curse",
+            "description": "",
+            "elements": ["Dark"]
+        },
+        {
+            "name": "death",
+            "description": "",
+            "elements": ["Dark"]
+        },
+        {
+            "name": "steam",
+            "description": "",
+            "elements": ["Fire", "Water"]
+        },
+        {
+            "name": "mist",
+            "description": "",
+            "elements": ["Fire", "Water"]
+        },
+        {
+            "name": "boil",
+            "description": "",
+            "elements": ["Fire", "Water"]
+        },
+        {
+            "name": "blast",
+            "description": "",
+            "elements": ["Fire", "Ice"]
+        },
+        {
+            "name": "heat wave",
+            "description": "",
+            "elements": ["Fire", "Wind"]
+        },
+        {
+            "name": "flare",
+            "description": "",
+            "elements": ["Fire", "Wind"]
+        },
+        {
+            "name": "cinder",
+            "description": "",
+            "elements": ["Fire", "Earth"]
+        },
+        {
+            "name": "lava",
+            "description": "",
+            "elements": ["Fire", "Earth"]
+        },
+        {
+            "name": "purifying fire",
+            "description": "",
+            "elements": ["Fire", "Holy"]
+        },
+        {
+            "name": "wrath of god",
+            "description": "",
+            "elements": ["Fire", "Holy"]
+        },
+        {
+            "name": "flame of corruption",
+            "description": "",
+            "elements": ["Fire", "Dark"]
+        },
+        {
+            "name": "hellfire",
+            "description": "",
+            "elements": ["Fire", "Dark"]
+        },
+        {
+            "name": "icicle",
+            "description": "",
+            "elements": ["Water", "Ice"]
+        }, 
+        {
+            "name": "frost",
+            "description": "",
+            "elements": ["Water", "Ice"]
+        }, 
+        {
+            "name": "avalanche",
+            "description": "",
+            "elements": ["Water", "Ice"]
+        },
+        {
+            "name": "typhoon",
+            "description": "",
+            "elements": ["Water", "Wind"]
+        }, 
+        {
+            "name": "storm",
+            "description": "",
+            "elements": ["Water", "Wind"]
+        }, 
+        {
+            "name": "thunder",
+            "description": "",
+            "elements": ["Water", "Wind"]
+        },
+        {
+            "name": "mudslide",
+            "description": "",
+            "elements": ["Water", "Earth"]
+        },
+        {
+            "name": "antidote",
+            "description": "",
+            "elements": ["Water", "Holy"]
+        }, 
+        {
+            "name": "remove curse",
+            "description": "",
+            "elements": ["Water", "Holy"]
+        },
+        {
+            "name": "snow",
+            "description": "",
+            "elements": ["Ice", "Wind"]
+        }, 
+        {
+            "name": "blizzard",
+            "description": "",
+            "elements": ["Ice", "Wind"]
+        },
+        {
+            "name": "permafrost",
+            "description": "",
+            "elements": ["Ice", "Earth"]
+        },
+        {
+            "name": "Skadi's wrath",
+            "description": "",
+            "elements": ["Ice", "Holy"]
+        },
+        {
+            "name": "Hel's fury",
+            "description": "",
+            "elements": ["Ice", "Dark"]
+        },
+        {
+            "name": "sandstorm",
+            "description": "",
+            "elements": ["Wind", "Earth"]
+        },
+        {
+            "name": "pheremone",
+            "description": "",
+            "elements": ["Wind", "Earth"]
+        },
+        {
+            "name": "perfume",
+            "description": "",
+            "elements": ["Wind", "Earth"]
+        },
+        {
+            "name": "foul odor",
+            "description": "",
+            "elements": ["Wind", "Earth"]
+        },
+        {
+            "name": "create homonculi",
+            "description": "",
+            "elements": ["Earth", "Holy"]
+        }, 
+        {
+            "name": "raise dead",
+            "description": "",
+            "elements": ["Earth", "Holy"]
+        }, 
+        {
+            "name": "banish undead",
+            "description": "",
+            "elements": ["Earth", "Holy"]
+        },
+        {
+            "name": "create undead",
+            "description": "",
+            "elements": ["Earth", "Dark"]
+        }, 
+        {
+            "name": "enslave undead",
+            "description": "",
+            "elements": ["Earth", "Dark"]
+        }, 
+        {
+            "name": "decay", 
+            "description": "",
+            "elements": ["Earth", "Dark"]
+        },
+        {
+            "name": "rot",
+            "description": "",
+            "elements": ["Earth", "Dark"]
+        },
+        {
+            "name": "chaos",
+            "description": "",
+            "elements": ["Holy", "Dark"]
+        }, 
+        {
+            "name": "blasphemy",
+            "description": "",
+            "elements": ["Holy", "Dark"]
+        }
+    ]
+}
